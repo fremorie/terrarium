@@ -1,0 +1,76 @@
+.explanation {
+    color: #ffffff;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    background: rgba(0, 0, 0, 0.6);
+    max-width: 300px;
+    cursor: default;
+}
+
+.explanation li {
+    margin-bottom: 8px;
+}
+
+.explanation li b {
+    font-weight: 500;
+}
+
+.explanation a {
+    font-weight: bold;
+    color: lightblue;
+}
+
+.explanation__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.explanation__title {
+    margin: 0;
+    font-size: 16px;
+}
+
+.explanation__toggle {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.explanation__toggle:hover {
+    border-color: #ffffff;
+}
+
+.explanation__body {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: grid-template-rows 0.3s ease;
+    overflow: hidden;
+}
+
+.explanation__body--closed {
+    grid-template-rows: 0fr;
+}
+
+.explanation__details {
+    min-height: 0;
+    font-size: 14px;
+    margin: 0;
+}
+
+.explanation h2 {
+    font-size: 14px;
+}
