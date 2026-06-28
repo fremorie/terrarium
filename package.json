@@ -2,13 +2,13 @@
     "name": "shaders",
     "version": "1.0.0",
     "description": "All kinds of shaders",
-    "homepage": "https://github.com/fremorie/shaders#readme",
+    "homepage": "https://github.com/fremorie/terrarium#readme",
     "bugs": {
-        "url": "https://github.com/fremorie/shaders/issues"
+        "url": "https://github.com/fremorie/terrarium/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fremorie/shaders.git"
+        "url": "git+https://github.com/fremorie/terrarium.git"
     },
     "type": "module",
     "license": "MIT",
