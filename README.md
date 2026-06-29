@@ -24,3 +24,12 @@ Start dev server:
 ```bash
 npm run dev
 ```
+
+# Repository History
+
+This repository contains the standalone version of the project, extracted from a larger codebase.
+
+The original development history can be found in the original repository:
+- https://github.com/fremorie/shaders/tree/main/src/scenes/SpringInABottle
+
+The relevant code was moved here to provide a dedicated GitHub Pages deployment with a shorter URL.
