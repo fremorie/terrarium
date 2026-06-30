@@ -61,6 +61,7 @@ export function SpringInABottle() {
                         ? 'spring-in-a-bottle--interactive'
                         : undefined
                 }
+                dpr={2}
                 flat
                 camera={{
                     fov: 45,
